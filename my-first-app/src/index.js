@@ -13,7 +13,7 @@ import ReactDOM from 'react-dom';
 //what is this replacing from our plunker example code
 class HelloWorld extends React.Component {
   render() {
-    return <h1>Hello World!</h1>;
+    return <h1>{1 + 1}</h1>;
   }
 }
 //we no longer have to make a blue print object
@@ -22,8 +22,13 @@ class HelloWorld extends React.Component {
 //but React.createClass did do important stuff for us so how do we get that
 //this class does need to have some built in functionality from react
 //so we need to "extends" the react class Component
+//hopefully we see how this is much simpler.
+
+//WE DO
+//lets try to make our user detail custom element
 
 
+//this looks pretty much the same
 ReactDOM.render(
   <HelloWorld />,
   document.getElementById('root')
